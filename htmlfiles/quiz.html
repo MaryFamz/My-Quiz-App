@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cssfiles/quiz.css">
+    <link rel="stylesheet" href="../cssfiles/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Thunder Quiz</title>
+    <script>
+        let token = localStorage.getItem("token")
+        if(token == null){
+            window.location.replace("./index.html")
+        }
+    </script>
+</head>
+<body>
+    <section class="main-section">
+        <div class="top-words display just-btw">
+            <a href="../htmlfiles/index.html"><img src="../images/thunderlogo.jpg" alt="t-wizz"></a>
+            <h1>Explore Our Quiz Categories</h1>
+            <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        <div class="guide-bar display just-btw">
+            <button id="guide-btn">Guide</button>
+            <button class="logout" id="guide-btn">LOG OUT</button>
+        </div>
+    
+        <div class="cards display just-btw">
+            <div class="card display just-btw">
+                <img src="../images/basic math.jpg" alt="basic-math">
+                <h1>Basic Math</h1>
+                <p>Get to know if <br> you still know your 1,2,3</p>
+                <button class="basicmath question-button">START</button>
+            </div>
+        
+            <div class="card display just-btw">
+                <img src="../images/middle math.png" alt="middle-math">
+                <h1>Middle Math</h1>
+                <p>Try this out, get familiar <br> with your childhood</p>
+                <button class="middlemath question-button">START</button>
+            </div>
+        
+            <div class="card display just-btw">
+                <img src="../images/advance math.png" alt="advance-math">
+                <h1>Advance Math</h1>
+                <p>Play and see<br> if you're a Math Wizz</p>
+                <button class="advancemath question-button">START</button>
+            </div>
+        </div>
+        <div class="container hidden">
+            <div id="guide-container">
+                <div id="guide">
+                    <h2>Quiz Guide</h2>
+                    <ol>
+                        <li>You Have only 30 seconds for each category</li>
+                        <li>Once you select your answer, you can't go back</li>
+                        <li>You'll get points on the basic of your correct answer</li>
+                        <li>You can't exit from the quiz while playing</li>
+                        <li>Contact us for workings and answers</li>
+                    </ol>
+                    <div id="buttons">
+                        <button id="exit">Exit</button>
+                        <button id="logout" class="logout">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay hidden"></div>
+    </section>
+    
+
+    <script src="../javafiles/extras.js"></script>
+    <script src="../javafiles/quiz.js"></script>
+</body>
+</html>

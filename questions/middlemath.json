@@ -1,0 +1,182 @@
+[
+    {
+        "question": "Solve 95 - 5 / 45 + 20",
+        "answer": "22",
+        "option": [25, 20, 100, 22, 40],
+        "id": 1
+    },
+    {
+        "question": "solve for x in the question (5x + 2)/3 = 10x",
+        "answer": "0.08",
+        "option": [5, 2, 1, 0.08, 0.85],
+        "id": 2
+    },
+    {
+        "question": "if a man has 3 sons and each son has a favourite sister whose mother is alive, how many are they in the family",
+        "answer": "6",
+        "option": [8, 6, 10, 9, 11],
+        "id": 3
+    },
+    {
+        "question": "I think of a number, added 3 and then multiplied by 4. I then added 7 and the result is 63.Find the number",
+        "answer": "11",
+        "option": [11, 45, 44, 15, 16],
+        "id": 4
+    },
+    {
+        "question": "1 is subtracted from eight times a certain number. The result is 15. Find the number.",
+        "answer": "2",
+        "option": [-2, 2, -3, 3, 4],
+        "id": 5
+    },
+    {
+        "question": "Convert 324₁₀ to a binary number",
+        "answer": "101000100",
+        "option": [111000100, 101001100, 101000100, 101000110, 101001001],
+        "id": 6
+    },
+    {
+        "question": "What is the sum of seven, eight and fifteen?",
+        "answer": "30",
+        "option": [30, 35, 40, 45, 20],
+        "id": 7
+    },
+    {
+        "question": "The sum of three consecutive whole numbers is 108. Find the numbers.",
+        "answer": "35, 36 and 37",
+        "option": ["25, 26 and 27", "27, 28 and 29", "28, 29 and 30", "35, 36 and 37", "17, 18 and 19"],
+        "id": 8
+    },
+    {
+        "question": "Find the product of -24 and 5",
+        "answer": "-120",
+        "option": [120, -29, -19, 19, -120],
+        "id": 9
+    },
+    {
+        "question": "The difference between 19 and another positive number is 53. Find the value of the number.",
+        "answer": "53",
+        "option": [54, 50, -34, 53, 34],
+        "id": 10
+    },
+    {
+        "question": "The product of two numbers is 63. If one of the numbers is 7, find the second number.",
+        "answer": "9",
+        "option": [8, 9, 10, 11, 12],
+        "id": 11
+    },
+    {
+        "question": "Share 300 bags among Tolu, Tope and Tunde in the ratio 7:8:10. What is Tope's share?",
+        "answer": "96 bags",
+        "option": ["120 bags", "96 bags", "84 bags", "100 bags", "No idea"],
+        "id": 12
+    },
+    {
+        "question": "If the resistance R newtons to the motion of a car varies directly as the square of the speed S. Then, write the quation connecting R and S",
+        "answer": "R = kS²",
+        "option": ["R = kS", "R = kS²", "R ∝ kS²", "R ∝ S²", "R = kS"],
+        "id": 13
+    },
+    {
+        "question": "If 18 farmers can cultivate a farmland in 20 days.How many days will it take 6 men to cultivate the same farmland at the same rate?",
+        "answer": "60 days",
+        "option": ["6½ days", "60 days", "45 days", "100 days", "20/3 days"],
+        "id": 14
+    },
+    {
+        "question": "If 40 students can consume 100kg bag of beans in 6 weeks. How long will the bag of beans last 16 students?",
+        "answer": "15 weeks",
+        "option": ["30 weeks", "15 weeks", "25 weeks", "undefined weeks", "8 weeks"],
+        "id": 15
+    },
+    {
+        "question": "Find the simple interest on #15,000 for 3 years at 10% per annum.",
+        "answer": "#4,500",
+        "option": ["#4,500", "#3,500", "#3,000", "#4,000", "#5,000"],
+        "id": 16
+    },
+    {
+        "question": "Find the amount that #20,000 becomes if saved for 2 years at 10% per annum compound interest.",
+        "answer": "#24,200",
+        "option": ["#25,000", "#24,000", "#24,200", "#24,300", "25,250"],
+        "id": 17
+    },
+    {
+        "question": "Factorise 14x - 28",
+        "answer": "14(x-2)",
+        "option": ["2(7x-14)", "14(x-2)", "14(y-2)", "2(7x-28)", "14(1x-2)"],
+        "id": 18
+    },
+    {
+        "question": "Factorise completely, x² + 2x - 3",
+        "answer": "(x+3)(x-1)",
+        "option": ["(x+3)(x-1)", "(x+3)(x-2)", "(x+4)(x-1)", "(x+3)(x+1)", "(x-3)(x-1)"],
+        "id": 19
+    },
+    {
+        "question": "Solve these equations simultaneously. x + y = 4 , x + 3y = 6",
+        "answer": "x=3, y=1",
+        "option": ["x=2, y=1", "x=3, y=2", "x=3, y=-1", "x=-3, y=1", "x=3, y=1"],
+        "id": 20
+    },
+    {
+        "question": "Make t the subject in s/t + k = m",
+        "answer": "t = s/(m - k)",
+        "option": ["t = s/(m - k)", "t = s/m - k", "t = m/(s - k)", "t = s/(k - m)", "t = s/k - m"],
+        "id": 21
+    },
+    {
+        "question": "If the radius of an hemispheric bowl is 4.5cm. Calculate the volume.",
+        "answer": "190.9 cm³",
+        "option": ["190.9 cm³", "190 cm³", "190.9 cm²", "191 cm²", "192 cm³"],
+        "id": 22
+    },
+    {
+        "question": "If 125∧(x+2) = 25∧2x, find x",
+        "answer": "6",
+        "option": [7, 5.5, 6, 8, 9],
+        "id": 23
+    },
+    {
+        "question": "Find log₈64",
+        "answer": "2",
+        "option": [2, 4, 8, 16, 32],
+        "id": 24
+    },
+    {
+        "question": "Four angles of a pentagon are equal and the last one is 60⁰. Find the equal angles",
+        "answer": "120⁰",
+        "option": ["121⁰", "120⁰", "125⁰", "90⁰", "60⁰"],
+        "id": 25
+    },
+    {
+        "question": "The angles of a triangle are given as 4x, x+50⁰ and 3x-10⁰. Find the value of x",
+        "answer": "17½⁰",
+        "option": ["18⁰", "17⁰", "15⁰", "30⁰", "17½⁰"],
+        "id": 26
+    },
+    {
+        "question": "What term must be added to the following expression to make it a perfect square? 9n² + 49",
+        "answer": "42n",
+        "option": ["It is not a perfect square", "42n", "64", "43", "44n"],
+        "id": 27
+    },
+    {
+        "question": "Cos 30⁰ = ?",
+        "answer": "√3/2",
+        "option": ["√3/2", "I don't know", "√2/2", "√1/2", "½"],
+        "id": 28
+    },
+    {
+        "question": "Find the 8th term of the A.P 3, 5, 7, 9 .....",
+        "answer": "17",
+        "option": [18, 16, 19, 17, 20],
+        "id": 29
+    },
+    {
+        "question": "The sum to infinity of a G.P is 20. Find the common ratio if the first term is 5.",
+        "answer": "¾",
+        "option": ["⅕", "⅘", "⅐", "⅚", "¾"],
+        "id": 30
+    }
+]

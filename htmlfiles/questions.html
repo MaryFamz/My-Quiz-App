@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Exo:ital,wght@l,600&display=swap">
+    <link rel="shortcut icon" href="../images/thunderlogo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../cssfiles/questions.css">
+    <title>Quiz Questions</title>
+</head>
+<body>
+    <div class="questionContainer"></div>
+    
+    <div class="click-btns">
+        <button class="next">NEXT</button>
+        <button class="submit hidden">SUBMIT</button>
+        <button class="calculator">Calculator</button>
+    </div>
+
+    <main class="calculator-section hiddenNow">
+        <div class="calc-body">
+            <div class="close-section">
+                <div> 
+                </div>
+                <button class="close">x</button>
+            </div>
+            <div class="screen-sect">
+                <input type="text" placeholder="0"  id="input-screen" maxlength="19" >
+                <button class="btn-ce del-btn" onclick="delButton()">Del</button>
+            </div>
+            <div class="keys">
+                <button class="btn" onclick="show('1')">1</button>
+                <button class="btn" onclick="show('2')">2</button>
+                <button class="btn" onclick="show('3')">3</button>
+                <button class="btn operator" onclick="show('/')">/</button>
+                <button class="btn" onclick="show('4')">4</button>
+                <button class="btn" onclick="show('5')">5</button>
+                <button class="btn" onclick="show('6')">6</button>
+                <button class="btn operator" onclick="show('*')">*</button>
+                <button class="btn" onclick="show('7')">7</button>
+                <button class="btn" onclick="show('8')">8</button>
+                <button class="btn" onclick="show('9')">9</button>
+                <button class="btn operator" onclick="show('+')">+</button>
+                <button class="btn" onclick="show('0')">0</button>
+                <button class="btn-ce" onclick="clrButton()">CE</button>
+                <button class="btn operator" onclick="show('-')">-</button>
+                <button class="btn operator" onclick="result()">=</button>
+            </div>
+        </div>
+    </main>
+    <div class="overlay hiddenNow"></div>
+    <script src="../javafiles/questions.js"></script>
+</body>
+</html>

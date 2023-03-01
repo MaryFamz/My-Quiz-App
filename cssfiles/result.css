@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+
+:root{
+    --width: 380px;
+    --height: 350px;
+    --top: -50%;
+    --left: -50%;
+    --backgroundColor: #272727 ;
+    --borderRadius: 8px;
+    --origin: bottom right;
+    --animation: animate 6s linear infinite;
+    --font: 1em;
+    --spacingEm: 0.05em;
+    --color: #fdec03;
+    --trans: 0.5s;
+    --z10: 10;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8f8f8f;
+}
+
+.box{
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--backgroundColor);
+    border-radius: var(--borderRadius);
+    overflow: hidden;
+    box-shadow: 0 0 3px 3px rgb(0, 0, 0);
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    width: var(--width);
+    height: var(--height);
+    background: linear-gradient(0deg, transparent,#fdec03,#fdec03);
+    top: var(--top);
+    left: var(--left);
+    transform-origin: var(--origin);
+    animation: var(--animation);
+}
+
+.box::after{
+    content: '';
+    position: absolute;
+    width: var(--width);
+    height: var(--height);
+    background: linear-gradient(0deg, transparent,#fdec03,#fdec03);
+    top: var(--top);
+    left: var(--left);
+    transform-origin: var(--origin);
+    animation: var(--animation);
+    animation-delay: -3s;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.result{
+    position: absolute;
+    background-color: #1c1c1c;
+    inset: 3px;
+    z-index: var(--z10);
+    border-radius: var(--borderRadius);
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.result h1{
+    color: var(--color);
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.result h2{
+    font-size: 30px;
+    color: white;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: var(--color);
+    border: 1px solid #fdec03;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.links a:hover{
+    color: var(--color);
+    background-color: black;
+}

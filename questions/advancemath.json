@@ -1,0 +1,122 @@
+[
+    {
+        "question":"What aspect of Mathematics is this rule used? SOHCAHTOA",
+        "answer": "trigonometry",
+        "option": ["pythagoras' theorem", "trigonometry", "regular polygons", "construction", "simultaneous equation"],
+        "id": 1
+    },
+    {
+        "question": "Convert 48⁰25/17//",
+        "answer": "48.42⁰",
+        "option": ["49⁰", "55⁰", "48.42⁰", "49.5⁰", "50⁰"],
+        "id": 2
+    },
+    {
+        "question": "In a traingle ABC, express sin(90 + A) in terms of the angles not indicated",
+        "answer": "-cos(B + C)",
+        "option": ["sin(ⁿ/2 + B + C)", "sin(ⁿ/2 - B - C)", "sin(¾ⁿ - B + C)", "-cos(B + C)", "sin(¾ⁿ - B - C)"],
+        "id": 3
+    },
+    {
+        "question": "In a triangle A, B, C express cos C/2 in terms of A and B",
+        "answer": "sin (A/2 + B/2)",
+        "option": ["sin (A/2 + B/2)", "sin (A/2 - B/2)", "sec (A/2 + B/2)", "sec (A/2 - B/2)", "cos (A/2 + B/2)"],
+        "id": 4
+    },
+    {
+        "question": "Without using table or calculator, evaluate cot(22.5)",
+        "answer": "√2 + 1",
+        "option": ["√2 + 1", "√6 - 1", "1 - √3", "√3 + 1", "√6 + 1"],
+        "id": 5
+    },
+    {
+        "question": "Write the value of cos 15⁰ in surd form",
+        "answer": "(√6 + √2)/4",
+        "option": ["(√3 + 1)/√2", "(√3 - 1)/2√2", "(√3 + √2)/2√2", "(√6 + √2)/4", "(√6 - √2)/4"],
+        "id": 6
+    },
+    {
+        "question": "The value of (sin 35⁰/cos 55⁰) + (cos 15⁰/sin 75⁰) is",
+        "answer": "2",
+        "option": [2, 1, 0, -2, -1],
+        "id": 7
+    },
+    {
+        "question": "Who was the great mathematician who solved that ∂¹⁰ = cos⊘ + i sin⊘ ?",
+        "answer": "Leonard Euler",
+        "option": ["Williams Packer", "Leonard Euler", "Pytharos", "Eigen Smith", "Isaac Newton"],
+        "id": 8
+    },
+    {
+        "question": "Solve this equation 1 + (sin²x/cos²x)",
+        "answer": "sec²x",
+        "option": ["tan²x", "cos²x", "sec²x", "cosec²x", "cot²x"],
+        "id": 9
+    },
+    {
+        "question": "In a triangle ABC, a = 4.73, c = 3.58, C = 42⁰12/. Calculate the size of angle A",
+        "answer": "62.56⁰",
+        "option": ["48⁰", "78.2⁰", "62.56⁰", "35.8⁰", "52.66⁰"],
+        "id": 10
+    },
+    {
+        "question": "The following are equivalence of cos 2⊘ except",
+        "answer": "1-2cos²⊘",
+        "option": ["1-2cos²⊘", "2cos²⊘-1", "1-2sin²⊘", "cos²⊘-sin²⊘", "cos²⊘-1"],
+        "id": 11
+    },
+    {
+        "question": "In the 3rd quadrant, only ________ is positive",
+        "answer": "tangent",
+        "option": ["sine", "cosine", "tangent", "secant", "cosecant"],
+        "id": 12
+    },
+    {
+        "question": "The sine of angle is equal to the cosine of its ________",
+        "answer": "complement",
+        "option": ["supplement", "complement", "component", "radian", "equal"],
+        "id": 13
+    },
+    {
+        "question": "If A = ⅗ and sin B = 5/13, where A and B are acute angles, find the values of cot(A + B)",
+        "answer": "33/56",
+        "option": ["33/65", "56/33", "33/56", "56/65", "55/66"],
+        "id": 14
+    },
+    {
+        "question": "Express 2 cos(x + y)cos(x - y) as a sum or difference of two cosines",
+        "answer": "cos 2x cos 2y",
+        "option": ["cos 2x - cos2y", "cos 2x + cos2y", "cos 2x cos 2y", "cos 2xy", "sin 2xy"],
+        "id": 15
+    },
+    {
+        "question": "Simplify (1-tan²x)/(1+tan²x)",
+        "answer": "cos 2x",
+        "option": ["tan²x", "sin2x", "1 + sin²x", "cos 2x", "tan 2x"],
+        "id": 16
+    },
+    {
+        "question": "Simplify √(1-cos 2x)/(1+cos 2x)",
+        "answer": "tan x",
+        "option": ["sec x", "cosec x", "sin x", "tan x", "cot x"],
+        "id": 17
+    },
+    {
+        "question": "Differentiate y = 1/x²",
+        "answer": "-2x‾³",
+        "option": ["-2x‾³", "-3x‾³", "-2x‾²", "-2y‾³", "-4x‾³"],
+        "id": 18
+    },
+    {
+        "question": "Differentiate y = 3x² - x + 5",
+        "answer": "6x - 1",
+        "option": ["3x - 1", "3x + 1", "6x - 1", "6x + 1", "3x - 2"],
+        "id": 19
+    },
+    {
+        "question": "Differentiate y = x²",
+        "answer": "2x",
+        "option": ["4y", "dx/dy", "dy/dx", "2x", "4x"],
+        "id": 20
+    }
+]

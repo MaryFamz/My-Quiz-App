@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cssfiles/signup.css">
+    <link rel="shortcut icon" href="../images/thunder reg.jpg" type="image/x-icon">
+    <title>Thunder🔱Register</title>
+    
+</head>
+<body>
+    <div class="box">
+        <form action="" class="form">
+            <h1>Thunder Register</h1>
+            <div class="inputBox">
+                <input type="text" name="username" id="userName" autocomplete="off" required>
+                <span>Username</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="email" id="email" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                <span>Email</span>
+                <i></i>
+            </div>
+            <!-- <div class="inputBox">
+                <input type="file" name="file" id="file">
+                <span>Profile Picture</span>
+                <i></i>
+            </div> -->
+            <div class="inputBox">
+                <input type="password" name="password" id="passWord" required>
+                <span>Password</span>
+                <i></i>
+            </div>
+            <input type="submit" value="Sign Up" id="signUp">
+        </form>
+    </div>
+    <script src="../javafiles/extras.js"></script>
+    <script src="../javafiles/signup.js"></script>
+</body>
+</html>

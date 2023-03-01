@@ -1,0 +1,182 @@
+[
+    {
+        "question": "Write in words: 264,005",
+        "answer": "two hundred and sixty-four thousand and five",
+        "option": ["two hundred and sixty-five thousand and five", "two hundred and sixty-four thousand and five hundred", "two hundred and sixty-four thousand and five", "two hundred and forty-six thousand and five", "none of the above"],
+        "id": 1
+    },
+    {
+        "question": "Write in figures: Three million, one thousand and fifty-five",
+        "answer": "3,001,055",
+        "option": ["3,100,055", "3,010,055", "incorrect figure", "3,001,055", "3,100,550"],
+        "id": 2
+    },
+    {
+        "question": "Find the place value of 9 in 329,467",
+        "answer": "thousands",
+        "option": ["units","tens", "hundreds", "thousands", "hundred thousands"],
+        "id": 3
+    },
+    {
+        "question": "The value of 7 in 379,286 is:",
+        "answer": "70000",
+        "option": [70,700,7000,70000,700000],
+        "id": 4
+    },
+    {
+        "question": "The next number in the series 25,000 , 50,000 , 75,000 , 100,000 is:",
+        "answer": "125000",
+        "option": [125000, 200000, 110000, 120000, 130000],
+        "id": 5
+    },
+    {
+        "question": "If the word F E R T I L I Z A T I O N is represented by 5 3 1 0 2 9 2 6 7 0 2 4 8. The word OZONE is represented by:",
+        "answer": "46483",
+        "option": [53102, 46483, 31025, 48364, 48543],
+        "id": 6 
+    },
+    {
+        "question": "Express ⅗ as a decimal",
+        "answer": "0.6",
+        "option": [0.6, 0.25, 0.75, 0.1, 0.125],
+        "id": 7
+    },
+    {
+        "question": "If the word F E R T I L I Z A T I O N is represented by 5 3 1 0 2 9 2 6 7 0 2 4 8. Which of the following figures represents the word IOTA",
+        "answer": "2407",
+        "option": [2048, 2407, 2876, 2476, 2408],
+        "id": 8
+    },
+    {
+        "question": "Change 0.125 to fraction",
+        "answer": "⅛",
+        "option": ["¼", "½", "⅙", "I don't know", "⅛"],
+        "id": 9
+    },
+    {
+        "question": "if  53-----[100]-----47 and  58-----[124]-----66. Find 78-----[?]-----89.",
+        "answer": "167",
+        "option": [168, 167, 169, 200, 250],
+        "id": 10
+    },
+    {
+        "question": "if 3 x 5---------R = 3 x 5 + 10 = 25, 2 x 3---------R = 2 x 3 + 10 = 16. Find 7 x 5---------R",
+        "answer": "45",
+        "option": [43, 36, 45, 50, 55],
+        "id": 11
+    },
+    {
+        "question": "if  53-----[100]-----47 and  58-----[124]-----66. Find ?-----[152]-----61.",
+        "answer": "91",
+        "option": [69, 91, 79, 90, 95],
+        "id": 12
+    },
+    {
+        "question": "if 3 x 5---------R = 3 x 5 + 10 = 25, 2 x 3---------R = 2 x 3 + 10 = 16. Find 5 x ?---------R = 35",
+        "answer": "5",
+        "option": [10, 15, 4, 3, 5],
+        "id": 13
+    },
+    {
+        "question": "Express ½ as a decimal",
+        "answer": "0.5",
+        "option": [0.6, 0.5, 0.05, 0.002, 0.006],
+        "id": 14
+    },
+    {
+        "question": "A school has 60 boys and 50 girls. What is the ratio of boys to girls?",
+        "answer": "6:5",
+        "option": ["5:6", "6:5", "4:6", "3:6", "1:2"],
+        "id": 15
+    },
+    {
+        "question": "If 5 * 3 = 5x3/2 = 15/2 = 7.5 and 6 * 4 = 6x4/2 = 24/2 = 12. Then 8 * 7 = ?",
+        "answer": "28",
+        "option": [56, 29, 28, 30, 35],
+        "id": 16
+    },
+    {
+        "question": "Add 273 + 486914 + 1394896 + 2436",
+        "answer": "1884519",
+        "option": [1884519, 18875419, 1884619, 1775610, 1884591],
+        "id": 17
+    },
+    {
+        "question": "If 5 * 3 = 5x3/2 = 15/2 = 7.5 and 6 * 4 = 6x4/2 = 24/2 = 12. Then solve 25 * ? = 75",
+        "answer": "6",
+        "option": [10, 6, 4, 3, 7],
+        "id": 18
+    },
+    {
+        "question": "The monthly salaries of four men are #30278, #52906, #46201, #63708. What is the total of the salaries of the four men?",
+        "answer": "#193093",
+        "option": ["#1930096", "#193093", "#1933903", "#19303913", "#193903"],
+        "id": 19
+    },
+    {
+        "question": "If 2(5 + 3) = 2(8) = 2x2 X 8 = 32, and 4(6 + 2) = 4(8) = 4x4 X 8 = 128. Then 6(2 + 2) = ?",
+        "answer": "144",
+        "option": [36, 40, 128, 144, 148],
+        "id": 20
+    },
+    {
+        "question": "Multiply 326 by 102",
+        "answer": "33252",
+        "option": [32050, 33252, 31152, 33152, 33352],
+        "id": 21
+    },
+    {
+        "question": "If 4(6 + 2) = 4(8) = 4x4 X 8 = 128, and 2(5 + 3) = 2(8) = 2x2 X 8 = 32. Then 10(4 + 3) = ?",
+        "answer": "700",
+        "option": [100, 700, 70, 480, 750],
+        "id": 22
+    },
+    {
+        "question": "A loaf of bread costs #37.50. How much will 25 loaves of bread cost?",
+        "answer": "#937.50",
+        "option": ["#837.50", "#937", "#937.50", "#1000", "#938"],
+        "id": 23
+    },
+    {
+        "question": "If  (5, 1) + (2, 7)  = (7, 8) and (12, 15) - (3, 9) = (9,6). Then (5, 9) + (7, 11) = (?, ?)",
+        "answer": "16,16",
+        "option": ["16,20", "16,16", "12,20", "20,12", "16,12"],
+        "id": 24
+    },
+    {
+        "question": "If a pen costs #12.45, how much will 13 of such pen cost?",
+        "answer": "#161.85",
+        "option": ["#160.85", "#161.85", "#162", "#161", "#162.00"],
+        "id": 25
+    },
+    {
+        "question": "If (12, 15) - (3, 9) = (9,6) and (3, 4) + (8, 7) = (11, 11). Then (3, 9) + (?, ?) = (9, 9)",
+        "answer": "6,0",
+        "option": ["12,0", "12,18", "6,0", "6,18", "0,6"],
+        "id": 26
+    },
+    {
+        "question": "The square of 12 is:",
+        "answer": "144",
+        "option": [122, 144, 168, 200, 24],
+        "id": 27
+    },
+    {
+        "question": "√625 = ?",
+        "answer": "25",
+        "option": [30, 25, 15, 20, 45],
+        "id": 28
+    },
+    {
+        "question": "Simplify 9² + 3²",
+        "answer": "90",
+        "option": [12, 24, 90, 84, 81],
+        "id": 29
+    },
+    {
+        "question": "Divide 4480 by 56",
+        "answer": "80",
+        "option": [80, 85, 92, 48, 43],
+        "id": 30
+    }
+]

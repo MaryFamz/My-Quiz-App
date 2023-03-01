@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cssfiles/login.css">
+    <link rel="shortcut icon" href="../images/thunder login.jpg" type="image/x-icon">
+    <title>Thunder〽Login</title>
+    <script>
+        let user =localStorage.getItem("currentUser");
+        if(user){
+            location.href="../htmlfiles/quiz.html"
+        }
+    </script>
+</head>
+<body>
+    <div class="box">
+        <form action="" class="login_form">
+            <h1>Thunder Login</h1>
+        
+            <div class="inputBox">
+                <input type="text" name="username" id="userName" required  autocomplete="off">
+                <span>Username</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" name="password" required id="passWord" >
+                <span>Password</span>
+                <i></i>
+            </div>
+            <input type="submit" value="Login" id="LogIn">
+            <div class="links">
+                <a href="#">Forgot Password?</a>
+                <a href="../htmlfiles/signup.html">SignUp </a>
+            </div>
+        </form>
+    </div>
+
+    <script src="../javafiles/extras.js"></script>
+    <script src="../javafiles/login.js"></script>
+</body>
+</html>

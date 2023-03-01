@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+
+:root{
+    --yellow:#fdec03;
+    --black:black;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+}
+
+.just-btw{
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list-style{
+    list-style: none;
+}
+
+.header-section{
+    padding: 1em 4em;
+    background: transparent;
+}
+
+.logo img{
+    width: 5em;
+    border-radius: 5em;
+}
+
+.middle-nav ul{
+    gap: 5em;
+}
+
+.middle-nav a{
+    font-size: 1.5em;
+    color: var(--black);
+}
+
+.middle-nav a:hover{
+    color: var(--yellow);
+}
+
+.last-nav a{
+    color: var(--black);
+    border: 1px solid var(--black);
+    font-size: 1.5em;
+    padding: 0.3em 1em;
+    border-radius: 0.3em;
+}
+
+.last-nav a:hover{
+    color: var(--yellow);
+    background-color: var(--black);
+}
+
+.first-section{
+    padding: 1em 4em;
+    height: 82.9vh;
+}
+
+.first-sect-h{
+    font-size: 3em;
+    width: 7em;
+}
+
+.first-sect-words img{
+    border: none;
+    border-radius: 0.5em 2em 0.5em 5em;
+    margin-top: 1em;
+}
+
+.signup-part{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.signup-part h1{
+    font-weight: normal;
+}
+
+.signup-part a{
+    color: var(--yellow);
+    background-color: var(--black);
+    font-size: 1.5em;
+    padding: 0.3em 1em;
+    border-radius: 0.3em;
+    width: 6.5em;
+    text-align: center;
+}
+
+.signup-part a:hover{
+    color: var(--black);
+    background-color: var(--yellow);
+}
+
+.second-section{
+    padding: 5em 2em;
+    flex-direction: column;
+    gap: 3em;
+    background: linear-gradient(#fffefeaf,#000000a2);
+}
+
+.top-words h1{
+    font-size: 4em;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 4em;
+    row-gap: 4em;
+}
+
+.card{
+    padding: 0.5em 2em;
+    width: 22em;
+    height: 23em;
+    box-shadow: 1px 2px 2px 1px #05050557;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    gap: 1.5em;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.card i{
+    margin-top: 0.5em;
+    font-size: 5em;
+}
+
+.card h1{
+    font-size: 3em;
+}
+
+.card p, .about p{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.third-section{
+    padding: 5em 2em;
+}
+
+.about h1{
+    font-size: 3em;
+}
+
+.about-words{
+    flex-direction: column;
+    gap: 1em;
+}
+
+span{
+    color: var(--yellow);
+    font-size: 2em;
+    font-weight: 5em;
+}
+
+.about-words p{
+    width: 30em;
+}
+
+.last-section{
+    background-color: #fdec03;
+    color: white;
+}
+
+.footer-section{
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    color: var(--black);
+}
+
+.social-icons{
+    gap: 2em;
+}  
+
+.social-ic{
+    padding: 0.3em;
+    border-radius: 10em;
+    font-size: 1.5em;
+    background-color: white;
+    color: var(--black);
+}
+
+.social-ic:hover{
+    background-color: var(--black);
+    color: white;
+}
+
+.footer-ul{
+    gap: 1em;
+}
+
+.footer-ul a{
+    color: var(--black);
+    font-size: 1.5em;
+}
+
+.copyright{
+    font-size: 1.5em;
+}
+
+.contact h1{
+    font-size: 2.5em;
+}
